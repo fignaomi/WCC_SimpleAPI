@@ -9,4 +9,4 @@ const conexao = mysql.createConnection({
 
 });
 
-module.exports = conexao;
+module.exports =  conexao;
