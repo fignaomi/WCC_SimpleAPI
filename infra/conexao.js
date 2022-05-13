@@ -5,8 +5,8 @@ const conexao = mysql.createConnection({
     port: 3306,
     user: 'root',
     password: '1234',
-    database: 'agendawcc'
-
+    database: 'agendawcc',
+    insecureAuth : true
 });
 
 module.exports =  conexao;

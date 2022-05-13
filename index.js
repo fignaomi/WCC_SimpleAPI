@@ -17,3 +17,11 @@ conexao.connect(error => {
     });
 
 });
+// {
+//     "id": 1,
+//     "nome_cliente": "luana",
+//     "servico": "unha",
+//     "status": "agendando",
+//     "data_servico": "2022-09-11",
+//     "data_agendamento": "2022-09-11"
+// }
